@@ -565,6 +565,11 @@ margin-bottom: .5em
 
 
 #opacnavbottom {
+    
+    width: 195px;
+}
+
+#opacnavbottom {
     background-color: #ffffff;
     border: 1px solid #e1e8ed;
 }
@@ -579,13 +584,17 @@ margin-bottom: .5em
 
 
 #opacnavbottom ul li {
-font-family: 'Roboto', sans-serif;
-color: #305972;
-font-weight: 300;
-text-decoration: none;
-font-size: 16px;	
-	cursor: unset;
-	
+    font-family: 'Roboto', sans-serif;
+    color: #305972;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: unset;
+    margin-bottom: 10px;
+}
+
+#opacnavbottom ul {
+    margin: 2px;
 }
 
 #opacnavbottom p {
