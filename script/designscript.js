@@ -58,14 +58,14 @@ $(".coverimages img").addClass("item-thumbnail");
 
 $(document).ready( function() {
 
-if (window.location.href.indexOf("http://model.bywatersolutions.com/cgi-bin/koha/opac-search.pl") > -1) {
+if (window.location.href.indexOf("/cgi-bin/koha/opac-search.pl") > -1) {
 
     console.log("calling prepare List");
     prepareList();
 
 }
 
-if (window.location.href.indexOf("http://model.bywatersolutions.com/plugin/Koha/Plugin/EDS/opac/eds-search.pl") > -1) {
+if (window.location.href.indexOf("/plugin/Koha/Plugin/EDS/opac/eds-search.pl") > -1) {
 
 $("body").addClass("eds");
 
@@ -74,7 +74,7 @@ $("body").addClass("eds");
 });
 
 $(document).ready( function() {
-if (window.location.href.indexOf("http://model.bywatersolutions.com/cgi-bin/koha/opac-search.pl") > -1) {
+if (window.location.href.indexOf("/cgi-bin/koha/opac-search.pl") > -1) {
 
 
 }
@@ -86,7 +86,7 @@ if (window.location.href.indexOf("http://model.bywatersolutions.com/cgi-bin/koha
 $( "#facetcontainer" ).append('<section class="save_title"><section class="heading"><h4><a class="" href="#">Save Titles</a></h4></section><h4 class="save_text">Save Selected Titles To</h4><select class="disabled" name="addto" id="addto"><option>Add to...</option><option value="addtocart">Cart</option><optgroup label="Public lists:"><option id="s53" value="addtolist">BWS Staff  Books</option></optgroup><option value="newlist">[ New list ]</option></select><section class="save_action"><span class="checkall"><a id="CheckAll" href="#">Select all</a></span><span class="clearall"><a id="CheckNone" href="#">Clear all</a></span></section><input class="btn btn-small" value="Save" type="submit"><span id="placehold"><input class="hold disabled" value="Place hold" type="submit"></span></section>');
 
 /*restricting to search results page*/
-if (window.location.href.indexOf("http://model.bywatersolutions.com/cgi-bin/koha/opac-search.pl") > -1) {
+if (window.location.href.indexOf("/cgi-bin/koha/opac-search.pl") > -1) {
 
 if (window.outerWidth && window.outerWidth > 520) {
 
@@ -166,10 +166,6 @@ function prepareList() {
 
 
 
-
-
-$.getScript("/plugin/Koha/Plugin/EDS/js/EDSScript.js");
-
 //Project gutenberg detail
 $("span.online_resources").ready(function(){
 var pgbks_link = $("span.online_resources a[href^='http://www.gutenberg.org/etext']").attr("href");
@@ -212,7 +208,3 @@ $("#holdings").html('<a href="'+iabks_link+'"><img src="http://media.bywatersolu
 
 
 
-/* JS for Koha CoverFlow Plugin
-   This JS was added automatically by installing the CoverFlow plugin
-   Please do not modify */$(document).ready(function(){$.getScript("/plugin/Koha/Plugin/Com/ByWaterSolutions/CoverFlow/jquery-flipster/src/js/jquery.flipster.min.js",function(data,textStatus,jqxhr){$("head").append("<link id='flipster-css' href='/plugin/Koha/Plugin/Com/ByWaterSolutions/CoverFlow/jquery-flipster/src/css/jquery.flipster.min.css' type='text/css' rel='stylesheet' />");$('#coverflow').load("/coverflow.pl?id=165",function(){$('.coverTest img').on("load",function(){if(this.naturalHeight==1){$(this).attr("src","http://media.bywatersolutions.com/Model/NoImage.png");}});var opt={'items':'.item','minfactor':15,'distribution':1.5,'scalethreshold':0,'staticbelowthreshold':false,'titleclass':'itemTitle','selectedclass':'selectedItem','scrollactive':true,'step':{'limit':4,'width':10,'scale':true}};$('#coverflow').flipster({});});});});
-/* End of JS for Koha CoverFlow Plugin */
