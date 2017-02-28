@@ -575,8 +575,8 @@ margin-bottom: .5em
 }
 
 #opacnavbottom h2 {
-    color: #66757F !important;
-    font-family: 'Roboto', sans-serif !important;
+    color: #66757F;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 18px;
     margin-left: 5px;
