@@ -2655,7 +2655,7 @@ box-sizing: border-box;
   and (max-device-width: 1024px) 
   {
 
-	#toolbar select, #opac-main-search select, .toolbar select, select {
+	#toolbar select, #opac-main-search select, .toolbar select, select, #addto {
     font-family: 'Roboto', sans-serif;
     text-indent: 0.01px;
     width: 100%;
@@ -2794,7 +2794,30 @@ box-sizing: border-box;
       }
 
 	  
+#numresults {
+    margin-top: 10px;
+}
 
+.span10.maincontent {
+    display: flex;
+    flex-direction:column;
+}
+
+
+#overdrive-results {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    float: none;
+    border: 1px solid #0076B2;
+    border-radius: 6px;
+    margin-left: 20px;
+    padding: 9px;
+    color: #254A71;
+    position: static;
+    top: 0px;
+    left: 0px;
+}
 
 }
 
@@ -2952,7 +2975,30 @@ box-sizing: border-box;
 
 
       
+#numresults {
+    margin-top: 10px;
+}
 
+.span10.maincontent {
+    display: flex;
+    flex-direction:column;
+}
+
+
+#overdrive-results {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    float: none;
+    border: 1px solid #0076B2;
+    border-radius: 6px;
+    margin-left: 20px;
+    padding: 9px;
+    color: #254A71;
+    position: static;
+    top: 0px;
+    left: 0px;
+}
 	  
 
 
