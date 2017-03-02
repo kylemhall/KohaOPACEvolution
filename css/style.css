@@ -2722,6 +2722,43 @@ box-sizing: border-box;
     display: flex;
     width:100%;
 }
+	  
+
+#moresearches ul {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+    #moresearches ul li {
+        border-bottom: 1px solid #e1e8ed;
+        border-right:none;
+        height: 55px;
+        display: inline-block;
+    }
+
+
+  
+        .main .row-fluid [class*="span"] {
+            display: block;
+            width: 100%;
+            min-height: 30px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            float: none;
+            margin-left: 2.7624309392265194%;
+        }
+
+
+
+        #login form {
+          margin: 0 0 20px;
+          width: 100%;
+          margin: 0 auto;
+      }
+
+	  
 
 
 }
