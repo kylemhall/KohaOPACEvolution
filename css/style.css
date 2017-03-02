@@ -2774,6 +2774,7 @@ box-sizing: border-box;
 
 #moresearches li a {
     font-family: 'Roboto', sans-serif;
+    color: #305972;	
     font-size: 18px;
     font-weight: 300;
     text-decoration: none;
