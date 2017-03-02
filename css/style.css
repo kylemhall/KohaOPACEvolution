@@ -2518,7 +2518,20 @@ font-size: 18px;
   and (-webkit-min-device-pixel-ratio: 1) {
 
 	 
-	  
+	  #daily-quote {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+#login {
+    background-color: #DCDFE0;
+    border-radius: 2px;
+    border-top: 8px solid #B4B7B8;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
 	  
 	  #searchform {
     display: flex;
@@ -2635,14 +2648,74 @@ box-sizing: border-box;
 
 }
 
-/* Portrait */
+/* Portrait, iPad */
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
+  #daily-quote {
+    width: 70%;
+    margin: 0 auto;
+}
 
+
+#login {
+    background-color: #DCDFE0;
+    border-radius: 2px;
+    border-top: 8px solid #B4B7B8;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+	  
+	  #searchform {
+    display: flex;
+    flex-direction: column;
+}
+	  
+#masthead_search {
+    margin-bottom: 20px !important;
+}
+
+.input-append {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}	  
+
+.mastheadsearch label {
+    color: #366CA4;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 20px;
+    display:none;
+}
+
+
+.input-append {
+    margin-top: 20px;
+}
+
+#translControl1 {
+    width: 95%;
+}
+
+#moresearches ul li {
+    border-bottom: 1px solid #e1e8ed;
+    height: 55px;
+    display: inline-block;
+}
+
+#searchsubmit {
+    margin-top: 20px;
+}
 /*buttons*/
 
 .actions a.addtocart, #CheckAll, #CheckNone, .CheckAll, .CheckNone, .toolbar .hold {
