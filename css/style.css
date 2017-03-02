@@ -2937,10 +2937,27 @@ box-sizing: border-box;
 
 
 
-        #login form {
+           #login form, #login {
           margin: 0 0 20px;
-          width: 100% !important;
+          width: 100%;
           margin: 0 auto;
+      }
+
+
+
+      #twitter-widget-0 {
+          position: static;
+          visibility: visible;
+          display: inline-block;
+          width: 100%;
+          height: 600px;
+          padding: 0px;
+          border: none;
+          max-width: 100%;
+          min-width: 180px;
+          margin-top: 0px;
+          margin-bottom: 0px;
+          min-height: 200px;
       }
 
 	  
