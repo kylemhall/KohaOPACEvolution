@@ -2655,6 +2655,35 @@ box-sizing: border-box;
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
+	#toolbar select, #opac-main-search select, .toolbar select, select {
+    font-family: 'Roboto', sans-serif;
+    text-indent: 0.01px;
+    width: 100%;
+    padding: 8px 18px;
+    font-size: 14px;
+    margin-bottom: 24px;
+    background: #FFF;
+    border: 1px solid #E5E5E4;
+    border-radius: 0;
+    outline: 0;
+    color: #333333;
+    height: 44px;
+    appearance: none;
+    background-color: rgb(255, 255, 255);
+border: 1px solid rgb(229, 229, 228);
+outline: none;
+color: rgb(0, 0, 0);
+-webkit-appearance: none;
+
+box-sizing: border-box;
+    text-indent: .01px;
+    text-overflow: '';
+    margin-bottom: 0;
+    background:url("http://media.bywatersolutions.com/newopac/arrow.png") no-repeat 90% 50%;
+
+}  
+	  
+	  
   #daily-quote {
     width: 70% !important;
     margin: 0 auto;
@@ -2730,6 +2759,12 @@ box-sizing: border-box;
     flex-direction: column;
 }
 
+
+#navigation, #opacnavbottom {
+    width: 100%;
+}
+	  
+	  
     #moresearches ul li {
         border-bottom: 1px solid #e1e8ed;
         border-right:none;
@@ -2741,7 +2776,7 @@ box-sizing: border-box;
   
         .main .row-fluid [class*="span"] {
             display: block;
-            width: 100%;
+            width: 100% !important;
             min-height: 30px;
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
@@ -2754,7 +2789,7 @@ box-sizing: border-box;
 
         #login form {
           margin: 0 0 20px;
-          width: 100%;
+          width: 100% !important;
           margin: 0 auto;
       }
 
