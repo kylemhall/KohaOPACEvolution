@@ -2520,6 +2520,20 @@ font-size: 18px;
     display: flex;
     flex-direction: column;
 }
+	  
+#masthead_search {
+    margin-bottom: 20px;
+}
+
+.input-append {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}	  
 
 .mastheadsearch label {
     color: #366CA4;
