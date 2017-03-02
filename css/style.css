@@ -2936,11 +2936,17 @@ box-sizing: border-box;
         }
 
 
+	   #login {
+		   
+	 margin-bottom:20px;	   
+	   }
 
            #login form, #login {
           margin: 0 0 20px;
           width: 100%;
           margin: 0 auto;
+		   
+     		    
       }
 
 
@@ -2949,7 +2955,7 @@ box-sizing: border-box;
           position: static;
           visibility: visible;
           display: inline-block;
-          width: 100%;
+          width: 100% !important;
           height: 600px;
           padding: 0px;
           border: none;
