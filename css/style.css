@@ -1137,19 +1137,28 @@ display:none;
     justify-content: space-around;
 }
 
+
 #overdrive-results {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 16px;
-    float: right;
+    float: none;
     border: 1px solid #0076B2;
     border-radius: 6px;
     margin-left: 20px;
     padding: 9px;
     color: #254A71;
-    position: relative;
-    top: 59px;
-    left: 68px;
+    position: static;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+
+#numresults {
+    display: flex;
+    flex-direction: column;
 }
 
 
