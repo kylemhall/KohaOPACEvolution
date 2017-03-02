@@ -2516,18 +2516,22 @@ font-size: 18px;
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
-#searchform {
+
+	 
+	  
+	  
+	  #searchform {
     display: flex;
     flex-direction: column;
 }
 	  
 #masthead_search {
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
 }
 
 .input-append {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
 }
 
 .main {
@@ -2544,9 +2548,6 @@ font-size: 18px;
     display:none;
 }
 
-select#masthead_search {
-    margin-bottom: 20px;
-}
 
 .input-append {
     margin-top: 20px;
