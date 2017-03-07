@@ -271,6 +271,13 @@ font-size: 1.19143rem;
     min-height: 152px;
 }
 
+#userdetails .table-bordered tbody:first-child tr:first-child td {
+    border-top: 0;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
 
 /*browse shelf*/
 
