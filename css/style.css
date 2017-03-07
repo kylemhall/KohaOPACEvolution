@@ -140,6 +140,111 @@ margin-bottom:10px;
 
 }
 
+/*hold button*/
+
+.btn.btn-link.js-show {
+    color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	color: #ffffff;
+	text-shadow: none;
+	background-color: #254A71;
+	background-image: -moz-linear-gradient(top, #254A71, #254A71);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#254A71), to(#254A71));
+	background-image: -webkit-linear-gradient(top, #254A71, #254A71);
+	background-image: -o-linear-gradient(top, #254A71, #254A71);
+	background-image: linear-gradient(to bottom, #254A71, #254A71);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	*background-color: #254A71;
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	*margin-left: .3em;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: normal;
+	padding: 12px 32px;
+	position: relative;
+	border-radius: 4px;
+	margin-left: 5px;
+  text-decoration: none;
+}
+
+/*hide hold icons, to replace with font-awesome*/
+
+#holdst [class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    *margin-right: .3em;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("../img/glyphicons-halflings.png");
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+    color: #ffffff;
+    display: none;
+}
+
+/*pause*/
+
+.icon-pause::before {
+    content: "\f04b";
+    font-family: FontAwesome;
+    color: #ffffff;
+    content: "\f04c";
+    font-style: normal;
+}
+
+.icon-play::before {
+    font-family: FontAwesome;
+    content: "\f04b";
+    font-style: normal;
+}
+
+.btn.btn-link.js-show:hover {
+color:#000000;
+background-color:#366CA4;
+    background-image: -moz-linear-gradient(top, #366CA4, #366CA4);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#366CA4), to(#366CA4));
+    background-image: -webkit-linear-gradient(top, #366CA4, #366CA4);
+    background-image: -o-linear-gradient(top, #366CA4, #366CA4);
+    background-image: linear-gradient(to bottom, #366CA4, #366CA4);
+}
+
+#opac-user-holds a.title {
+    font-size: 1.19143rem;
+    line-height: 1.52;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #2F3C4A;
+}
+
+#opac-userlists label {
+
+ font-size:18px;
+}
 
 
 
