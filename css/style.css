@@ -254,6 +254,23 @@ background-color:#366CA4;
  font-size:18px;
 }
 
+/*items checkedout interface */
+
+#checkoutst a.title {
+font-size: 1.19143rem;
+}
+
+.item-thumbnail, td img {
+    max-width: none;
+    padding: 11px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 100px;
+    background: url(http://huntsvillelibrary.net/custom/opac/book-back.png) no-repeat;
+    min-height: 152px;
+}
+
 
 /*browse shelf*/
 
