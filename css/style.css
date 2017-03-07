@@ -260,7 +260,7 @@ background-color:#366CA4;
 font-size: 1.19143rem;
 }
 
-.item-thumbnail, td img {
+#userdetails .item-thumbnail, td img {
     max-width: none;
     padding: 11px;
     padding-bottom: 20px;
