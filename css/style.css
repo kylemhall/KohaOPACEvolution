@@ -995,7 +995,7 @@ justify-content: space-between;
 /********************/
 /* EXPANDABLE LIST  */
 /********************/
-/*#listContainer{
+#listContainer{
   margin-top:15px;
 }
 
@@ -1021,7 +1021,7 @@ justify-content: space-between;
     background-position: 1px 8px;
     padding-left: 20px;
     background-repeat: no-repeat;
-}*/
+}
 
 /* Collapsed state for list element */
 
