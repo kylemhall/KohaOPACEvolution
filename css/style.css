@@ -1025,7 +1025,7 @@ justify-content: space-between;
 
 /* Collapsed state for list element */
 
-/*.menu-collapse .collapsed {
+.menu-collapse .collapsed {
     position:relative;
 }
 
@@ -1040,11 +1040,11 @@ justify-content: space-between;
     position:absolute;
     top:0;
     font-size:17px;
-}*/
+}
 /* Expanded state for list element
 /* NOTE: This class must be located UNDER the collapsed one */
 
-/*.menu-collapse .expanded:before {
+.menu-collapse .expanded:before {
     content: "\f068";
     font-family: FontAwesome;
 }
@@ -1064,8 +1064,8 @@ background-repeat: no-repeat;
 
 .listControl{
   margin-bottom: 15px;
-}*/
-/*.listControl a {
+}
+.listControl a {
     border: 1px solid #555555;
     color: #555555;
     cursor: pointer;
@@ -1073,12 +1073,12 @@ background-repeat: no-repeat;
     line-height: 1.5em;
     margin-right: 5px;
     padding: 4px 10px;
-}*/
-/*.listControl a:hover {
+}
+.listControl a:hover {
     background-color:#555555;
     color:#222222;
     font-weight:normal;
-}*/
+}
 
 
 /*css*/
