@@ -1,5 +1,29 @@
 /*CSS*/
 
+/*accessible additions*/
+
+.js-to_expand[aria-hidden=true],
+.js-to_expand[data-hidden=true] {
+  display: none;
+}
+
+.expandmore__button {
+  background: none;
+  font-size: inherit;
+  color: inherit;
+}
+/* optional */
+.expandmore__button:before {
+  content : '+ ';
+}
+.expandmore__button[aria-expanded=true]:before,
+.expandmore__button[data-expanded=true]:before {
+  content : '- ';
+}
+
+.expandmore__button::before, .expandmore__button::before, .animated-expandmore__button::before {content: '+ ';speak: none;}
+
+
 /*changes for EDS results */
 
 
