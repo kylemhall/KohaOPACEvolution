@@ -56,6 +56,7 @@ border: 1px solid #305972 !important;
     font-size: inherit;
     color: inherit;
     font-weight: bold;
+    border:none;
 }
 /* optional */
 .expandmore__button:before {
