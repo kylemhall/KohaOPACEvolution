@@ -1,6 +1,31 @@
 /*CSS*/
 
 /*accessible additions*/
+/*custom*/
+
+/*accessibility focus*/
+
+a:active, a:focus {
+   border: 2px solid #305972 !important;
+}
+
+#search-facets button:focus {
+
+  border: 1px solid #305972 !important;
+
+}
+
+#moresearches a:active, #moresearches a:focus {
+border: 1px solid #305972 !important;
+
+}
+
+select:focus {
+border: 1px solid #305972 !important;
+
+}
+
+/*search facets accessibility labels*/
 
 .js-to_expand[aria-hidden=true],
 .js-to_expand[data-hidden=true] {
