@@ -51,11 +51,11 @@ border: 1px solid #305972 !important;
 .js-to_expand[data-hidden=true] {
   display: none;
 }
-
 .expandmore__button {
-  background: none;
-  font-size: inherit;
-  color: inherit;
+    background: none;
+    font-size: inherit;
+    color: inherit;
+    font-weight: bold;
 }
 /* optional */
 .expandmore__button:before {
