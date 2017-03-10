@@ -29,7 +29,7 @@ a:active, a:focus {
    border: 2px solid #305972 !important;
 }
 
-#search-facets button:focus {
+#search-facets button:focus, author_statement:focus {
 
   border: 1px solid #305972 !important;
 
