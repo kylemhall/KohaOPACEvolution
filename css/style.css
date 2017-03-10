@@ -1017,71 +1017,7 @@ justify-content: space-between;
     border: 1px solid #e1e8ed;
 }
 
-/********************/
-/* EXPANDABLE LIST  */
-/********************/
-#listContainer{
-  margin-top:15px;
-}
 
-.menu-collapse ul, li {
-    list-style: none;
-    margin:0;
-    padding:0;
-    cursor: pointer;
-}
-
-.menu-collapse p {
-    margin:0;
-    display:block;
-}
-
-.menu-collapse p:hover {
-    background-color:#121212;
-}
-
-.menu-collapse li, .menu-collapse h5, .menu-collapse span {
-    line-height:140%;
-    text-indent:0px;
-    background-position: 1px 8px;
-    padding-left: 20px;
-    background-repeat: no-repeat;
-}
-
-/* Collapsed state for list element */
-
-.menu-collapse .collapsed {
-    position:relative;
-}
-
-.menu-collapse #availability_facet.collapsed:before {
- margin-left:0px;
-}
-
-.menu-collapse .collapsed:before {
-    content: "\f067";
-    font-family: FontAwesome;
-    left:5px !important;
-    position:absolute;
-    top:0;
-    font-size:17px;
-}
-/* Expanded state for list element
-/* NOTE: This class must be located UNDER the collapsed one */
-
-.menu-collapse .expanded:before {
-    content: "\f068";
-    font-family: FontAwesome;
-}
-
-.menu-collapse h5 {
-line-height: 140%;
-text-indent: 0px;
-background-position: 1px 8px;
-padding-left: 20px;
-background-repeat: no-repeat;
-
-}
 
 .menu-collapse {
     clear: both;
