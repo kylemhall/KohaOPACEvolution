@@ -251,7 +251,7 @@ $(window).scroll(function(){
 
 
 
-$.getScript("/plugin/Koha/Plugin/EDS/js/EDSScript.js");
+
 
 //Project gutenberg detail
 $("span.online_resources").ready(function(){
