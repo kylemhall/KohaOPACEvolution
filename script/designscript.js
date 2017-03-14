@@ -1,6 +1,6 @@
 /*more link for titles*/
 
-$(document).ready( function() {  
+$(document).ready( function() {
 
 /*part expanded*/
 
@@ -167,10 +167,10 @@ $(author).hide();
                var t = ev.target
                $(author).toggle( "slow", function() {
     if ($(this).is(':visible')) {
-             expand.text('Hide');                
+             expand.text('Hide');
         } else {
-             expand.text('Expand');                
-        }        
+             expand.text('Expand');
+        }
   });
             });
 
@@ -182,7 +182,7 @@ $(author).hide();
       });
 
 
-}); 
+});
 
 
 
@@ -290,9 +290,9 @@ var iabks_link = $("span.online_resources a[href^='http://www.archive.org/detail
 if(iabks_link){
 $("#holdings").html('<a href="'+iabks_link+'"><img src="http://media.bywatersolutions.com/Model/opac-ia.png" alt="Available from the Internet Archive" /></a>');
 }
-}); 
+});
 
-  
+
 (function($) {
   //set speed
   var speed = 900;
@@ -319,13 +319,18 @@ $("#holdings").html('<a href="'+iabks_link+'"><img src="http://media.bywatersolu
 })(jQuery);
 
 
+/* JS for Koha CoverFlow Plugin
+   This JS was added automatically by installing the CoverFlow plugin
+   Please do not modify */$(document).ready(function(){$.getScript("/plugin/Koha/Plugin/Com/ByWaterSolutions/CoverFlow/bower_components/jquery-flipster/dist/jquery.flipster.min.js",function(data,textStatus,jqxhr){$("head").append("<link id='flipster-css' href='/plugin/Koha/Plugin/Com/ByWaterSolutions/CoverFlow/bower_components/jquery-flipster/dist/jquery.flipster.min.css' type='text/css' rel='stylesheet' />");$('#coverflow').load("/coverflow.pl?id=265",function(){$('.koha-coverflow img').on("load",function(){if(this.naturalHeight==1){$(this).attr("src","http://media.bywatersolutions.com/Model/NoImage.png");}});var opt={'items':'.item','minfactor':15,'distribution':1.5,'scalethreshold':0,'staticbelowthreshold':false,'titleclass':'itemTitle','selectedclass':'selectedItem','scrollactive':true,'step':{'limit':4,'width':10,'scale':true}};$('#coverflow').flipster({});});});});
+/* End of JS for Koha CoverFlow Plugin */
+
 /*accessibility plugin*/
 
 jQuery(document).ready(function($){
 
    /*
     * jQuery simple and accessible hide-show system (collapsible regions), using ARIA
-    * @version v1.5.0    
+    * @version v1.5.0
     * Website: https://a11y.nicolas-hoffmann.net/hide-show/
     * License MIT: https://github.com/nico3333fr/jquery-accessible-hide-show-aria/blob/master/LICENSE
     */
@@ -339,7 +344,7 @@ jQuery(document).ready(function($){
        $body = $('body'),
        delay = 1500,
        hash = window.location.hash.replace( "#", "" );
-   
+
 
    if ( $expandmore.length ) { // if there are at least one :)
       $expandmore.each( function(index_to_expand) {
@@ -349,17 +354,17 @@ jQuery(document).ready(function($){
               $hideshow_prefix_classes = typeof options.hideshowPrefixClass !== 'undefined' ? options.hideshowPrefixClass + '-' : '',
               $to_expand = $this.next(".js-to_expand"),
               $expandmore_text = $this.html();
-          
+
           $this.html( '<button type="button" class="' + $hideshow_prefix_classes + 'expandmore__button js-expandmore-button">' + $expandmore_text + '</button>' );
           $button = $this.children('.js-expandmore-button');
-          
+
           $to_expand.addClass( $hideshow_prefix_classes + 'expandmore__to_expand' ).stop().delay( delay ).queue( function() {
-            var $this = $(this); 
+            var $this = $(this);
             if ($this.hasClass('js-first_load')) {
                $this.removeClass('js-first_load');
             }
           });
-          
+
           $button.attr('id', 'label_expand_' + index_lisible);
           $button.attr(attr_control, 'expand_' + index_lisible);
           $button.attr(attr_expanded, 'false');
@@ -377,34 +382,34 @@ jQuery(document).ready(function($){
 
       });
 
-   
+
    }
-       
-      
+
+
    $body.on( 'click', '.js-expandmore-button', function( event ) {
       var $this = $(this),
           $destination = $( '#' + $this.attr(attr_control) );
-         
+
       if ($this.attr(attr_expanded) === 'false') {
           $this.addClass('is-opened').attr(attr_expanded, 'true');
           $destination.removeAttr(attr_hidden);
-         } 
+         }
          else {
               $this.removeClass('is-opened').attr(attr_expanded, 'false');
               $destination.attr(attr_hidden, 'true');
               }
-         
+
       event.preventDefault();
-         
+
    });
-	  
+
    $body.on( 'click keydown', '.js-expandmore', function( event ) {
       var $this = $(this),
           $target = $(event.target),
           $button_in = $this.find( '.js-expandmore-button' );
-             
+
       if ( !$target.is($button_in) && !$target.closest($button_in).length ) {
-             
+
           if ( event.type == 'click' ){
               $button_in.trigger('click');
               return false;
@@ -413,173 +418,16 @@ jQuery(document).ready(function($){
               $button_in.trigger('click');
               return false;
               }
-             
-          } 
-         
-         
+
+          }
+
+
    });
 
 
 });
 
 0
-/**************************************************************/
-/* Functions to execute on loading the document               */
-/**************************************************************/
-
-$(window).load( function() {
-$(".coverimages img").addClass("item-thumbnail");
-
-});
-
-$(document).ready( function() {
-
-if (window.location.href.indexOf("/cgi-bin/koha/opac-search.pl") > -1) {
-
-    console.log("calling prepare List");
-    prepareList();
-
-}
-
-if (window.location.href.indexOf("/plugin/Koha/Plugin/EDS/opac/eds-search.pl") > -1) {
-
-$("body").addClass("eds");
-
-}
-
-});
-
-$(document).ready( function() {
-if (window.location.href.indexOf("/cgi-bin/koha/opac-search.pl") > -1) {
-
-
-}
-
-});
-
-
-
-$( "#facetcontainer" ).append('<section class="save_title"><section class="heading"><h4><a class="" href="#">Save Titles</a></h4></section><h4 class="save_text">Save Selected Titles To</h4><select class="disabled" name="addto" id="addto"><option>Add to...</option><option value="addtocart">Cart</option><optgroup label="Public lists:"><option id="s53" value="addtolist">BWS Staff  Books</option></optgroup><option value="newlist">[ New list ]</option></select><section class="save_action"><span class="checkall"><a id="CheckAll" href="#">Select all</a></span><span class="clearall"><a id="CheckNone" href="#">Clear all</a></span></section><input class="btn btn-small" value="Save" type="submit"><span id="placehold"><input class="hold disabled" value="Place hold" type="submit"></span></section>');
-
-/*restricting to search results page*/
-if (window.location.href.indexOf("/cgi-bin/koha/opac-search.pl") > -1) {
-
-if (window.outerWidth && window.outerWidth > 520) {
-
-$(window).scroll(function(){
-
-   /*capturing div id opac-main-search*/
-  var sticky = $('#opac-main-search'),
-
-      scroll = $(window).scrollTop();
-
-  /*scroll position for search bar*/
-  if (scroll >= 80) sticky.addClass('fixed');
-  else sticky.removeClass('fixed');
-
-  /*grab .navbar-inverse class in variable*/
-  var stickytop = $('.navbar-inverse'),
-  /*capture scroll*/
-      scroll = $(window).scrollTop();
-
-  if (scroll >= 20) stickytop.addClass('fixed-nav');
-  else stickytop.removeClass('fixed-nav');
-
-     /*hide moresearches*/
-    var hide = $('#moresearches'),
-    scroll = $(window).scrollTop();
-
-   if (scroll >= 80) hide.addClass('hide');
-   else hide.removeClass('hide');
-
-
-});
-
-}
-
-}
-
-/**************************************************************/
-/* Prepares the cv to be dynamically expandable/collapsible   */
-/**************************************************************/
-function prepareList() {
-    console.log("preparing list");
-    $('.menu-collapse').find('li:has(ul)').click( function(event) {
-
-        if (this == event.target) {
-            $(this).toggleClass('expanded');
-            $(this).children('ul').toggle('medium');
-        }
-        return false;
-    })
-    .addClass('collapsed')
-    .children('ul').hide();
-
-//Hack to add links inside the cv
-	$('.menu-collapse a').unbind('click').click(function() {
-		window.open($(this).attr('href'), '_self');
-		return false;
-	});
-
-    //Create the button funtionality
-    $('.menu-collapse')
-    .unbind('click')
-    .click( function() {
-        $('.collapsed').addClass('expanded');
-        $('.collapsed').children().show('medium');
-    })
-    $('.menu-collapse')
-    .unbind('click')
-    .click( function() {
-        $('.collapsed').removeClass('expanded');
-        $('.collapsed').children().hide('medium');
-    })
-
-
-
-};
-
-
-
-
-//Project gutenberg detail
-$("span.online_resources").ready(function(){
-var pgbks_link = $("span.online_resources a[href^='http://www.gutenberg.org/etext']").attr("href");
-if(pgbks_link){
-$("#holdings").html('<a href="'+pgbks_link+'"><img src="http://media.bywatersolutions.com/Model/opac-guten.png" alt="Available from Project Gutenberg" /></a>');
-}
-});
-
-//open library detail
-$("span.online_resources").ready(function(){
-var olbks_link = $("span.online_resources a[href^='http://www.openlibrary.org/books']").attr("href");
-if(olbks_link){
-$("#holdings").html('<a href="'+olbks_link+'"><img src="http://media.bywatersolutions.com/Model/opac-ol.png" alt="Available from the Open Library" /></a>');
-}
-});
-
-
-//Internet Archive results
-$("#userresults").ready(function(){
-$("#userresults table td").each(function(i){
-td = $(this);
-var iabks_link = td.find("a[href^='http://www.archive.org/details']");
-var linkc = iabks_link.parent();
-var iabks_link = iabks_link.attr("href");
-if(iabks_link){
-$("td:eq("+i+") span.availability,td:eq("+i+") span.actions").hide();
-linkc.html('<a class="ebook" href="'+iabks_link+'">Available from the Internet Archive</a>');
-}
-});
-});
-
-//Internet Archive detail
-$("span.online_resources").ready(function(){
-var iabks_link = $("span.online_resources a[href^='http://www.archive.org/details']").attr("href");
-if(iabks_link){
-$("#holdings").html('<a href="'+iabks_link+'"><img src="http://media.bywatersolutions.com/Model/opac-ia.png" alt="Available from the Internet Archive" /></a>');
-}
-});
 
 
 
