@@ -1784,7 +1784,7 @@ font-weight: 300;
 
 }
 
-#toolbar select, #opac-main-search select, .toolbar select {
+#toolbar select, #opac-main-search select, .toolbar select, #advsearch select {
     font-family: 'Roboto', sans-serif;
     text-indent: 0.01px;
     width: 100%;
