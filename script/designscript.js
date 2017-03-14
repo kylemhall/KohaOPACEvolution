@@ -326,7 +326,7 @@ $("#holdings").html('<a href="'+iabks_link+'"><img src="http://media.bywatersolu
 
 /*accessibility plugin*/
 
-jQuery(document).ready(function($){
+/*jQuery(document).ready(function($){*/
 
    /*
     * jQuery simple and accessible hide-show system (collapsible regions), using ARIA
@@ -336,7 +336,7 @@ jQuery(document).ready(function($){
     */
    // loading expand paragraphs
    // these are recommended settings by a11y experts. You may update to fulfill your needs, but be sure of what you’re doing.
-   var attr_control = 'data-controls',
+   /*var attr_control = 'data-controls',
        attr_expanded = 'aria-expanded',
        attr_labelledby = 'data-labelledby',
        attr_hidden = 'data-hidden',
@@ -427,7 +427,7 @@ jQuery(document).ready(function($){
 
 });
 
-0
+0*/
 
 
 
