@@ -2,6 +2,13 @@
 
 /*accessible additions*/
 
+#toolbar select, #opac-main-search select, .toolbar select, select {
+   
+    background:url("http://media.bywatersolutions.com/newopac/arrow.png") no-repeat 90% 50% !important;
+
+}
+
+
 #availability_facet {
     padding-left: 0px;
 }
