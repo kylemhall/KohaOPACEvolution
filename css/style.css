@@ -5,7 +5,9 @@
 #toolbar select, #opac-main-search select, .toolbar select, select {
    
     background:url("http://media.bywatersolutions.com/newopac/arrow.png") no-repeat 90% 50% !important;
-
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
 }
 
 
