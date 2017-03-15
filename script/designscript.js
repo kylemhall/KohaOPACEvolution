@@ -27,12 +27,12 @@ $('#results #facet-authors').attr('aria-expanded', 'false');
 /*holding branch*/
 
 
-$("#results #holdingbranch_id span").addClass("js-expandmore");
+$("#results #holdingbranch_id #facet-holding-libraries").addClass("js-expandmore");
 
 
-$('#results #holdingbranch_id span').attr('data-controls', 'expand_1');
+$('#results #holdingbranch_id #facet-holding-libraries').attr('data-controls', 'expand_1');
 
-$('#results #holdingbranch_id span').attr('aria-expanded', 'false');
+$('#results #holdingbranch_id #facet-holding-libraries').attr('aria-expanded', 'false');
 
 $("#itype_id ul").addClass("js-to_expand");
 
