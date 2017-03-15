@@ -1830,10 +1830,14 @@ box-sizing: border-box;
 
 }
 
+#booleansearch select {
+ width:25%;	
+	
+}
+
 #advsearch select {
     font-family: 'Roboto', sans-serif;
     text-indent: 0.01px;
-    width: 25%;
     padding: 8px 18px;
     font-size: 14px;
     margin-bottom: 14px !important;
