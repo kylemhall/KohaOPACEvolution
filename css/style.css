@@ -30,6 +30,12 @@
 }
 
 
+select {
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
 /*accessibility focus*/
 
 a:active, a:focus {
