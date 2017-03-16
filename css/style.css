@@ -1896,11 +1896,9 @@ font-size: 20px;
 .item-thumbnail {
 padding: 11px;
 padding-bottom: 20px;
-margin-left: 20px;
 margin-top: 10px;
-width: 100px;
-background: url(http://huntsvillelibrary.net/custom/opac/book-back.png) no-repeat;
-min-height: 152px;
+box-shadow: 0px 0px 5px 1px #ccc;
+
 
 }
 
