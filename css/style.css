@@ -44,6 +44,10 @@ a:active, a:focus {
 
 }
 
+.results_summary.online_resources {
+    float: right;
+}
+
 #moresearches a:active, #moresearches a:focus {
 border: 1px solid #305972 !important;
 
