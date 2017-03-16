@@ -359,6 +359,7 @@ font-size: 1.19143rem;
     width: inherit;
     background: none;
     min-height: inherit;
+    box-shadow:none;	 
 }
 
 #userdetails .table-bordered tbody:first-child tr:first-child td {
