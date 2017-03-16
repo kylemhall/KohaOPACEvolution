@@ -32,6 +32,11 @@
 }
 
 
+.actions-menu.noprint {
+    float: right;
+    padding: 20px;
+}
+
 /*accessibility focus*/
 
 a:active, a:focus {
