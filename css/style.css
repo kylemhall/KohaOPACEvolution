@@ -359,7 +359,7 @@ font-size: 1.19143rem;
     width: inherit;
     background: none;
     min-height: inherit;
-    box-shadow:none;	 
+    box-shadow:none !important;	 
 }
 
 #userdetails .table-bordered tbody:first-child tr:first-child td {
