@@ -5,9 +5,7 @@
 #toolbar select, #opac-main-search select, .toolbar select, select {
    
     background:url("http://media.bywatersolutions.com/newopac/arrow.png") no-repeat 90% 50% !important;
-    -moz-appearance: none;
-    text-indent: 0.01px;
-    text-overflow: '';
+
 }
 
 
@@ -32,11 +30,6 @@
 }
 
 
-.actions-menu.noprint {
-    float: right;
-    padding: 20px;
-}
-
 /*accessibility focus*/
 
 a:active, a:focus {
@@ -47,10 +40,6 @@ a:active, a:focus {
 
   border: 1px solid #305972 !important;
 
-}
-
-.results_summary.online_resources {
-    float: right;
 }
 
 #moresearches a:active, #moresearches a:focus {
@@ -368,7 +357,6 @@ font-size: 1.19143rem;
     width: inherit;
     background: none;
     min-height: inherit;
-    box-shadow:none !important;	 
 }
 
 #userdetails .table-bordered tbody:first-child tr:first-child td {
@@ -1840,14 +1828,10 @@ box-sizing: border-box;
 
 }
 
-#booleansearch select {
- width:25%;	
-	
-}
-
 #advsearch select {
     font-family: 'Roboto', sans-serif;
     text-indent: 0.01px;
+    width: 25%;
     padding: 8px 18px;
     font-size: 14px;
     margin-bottom: 14px !important;
@@ -1906,11 +1890,11 @@ font-size: 20px;
 .item-thumbnail {
 padding: 11px;
 padding-bottom: 20px;
+margin-left: 20px;
 margin-top: 10px;
-box-shadow: 0px 0px 5px 1px #ccc;
-width: 75px;
-min-height: 52px;	
-
+width: 100px;
+background: url(http://huntsvillelibrary.net/custom/opac/book-back.png) no-repeat;
+min-height: 152px;
 
 }
 
