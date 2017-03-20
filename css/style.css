@@ -1,5 +1,9 @@
 /*CSS*/
 
+#daily-quote {
+    text-align: center;
+}
+
 #language-limit {
     width: 100% !important;
 }
