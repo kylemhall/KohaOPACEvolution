@@ -1,5 +1,25 @@
 /*CSS*/
 
+#language-limit {
+    width: 100% !important;
+}
+
+#sort_by {
+    width: 100% !important;
+}
+
+#subtype_content {
+    width: 100% !important;
+}
+
+#subtype_format {
+    width: 100% !important;
+}
+
+#subtype_additional {
+    width: 100% !important;
+}
+
 /*accessible additions*/
 
 #toolbar select, #opac-main-search select, .toolbar select, select {
