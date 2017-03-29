@@ -32,6 +32,9 @@
 
 }
 
+#shelfbrowser img {
+    width: 100% !important;
+}
 
 #availability_facet {
     padding-left: 0px;
