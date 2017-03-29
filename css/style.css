@@ -413,26 +413,26 @@ font-weight:300;
 
 /*hide default images*/
 
-#shelfbrowser #browser_next, #shelfbrowser #browser_previous {
+/*#shelfbrowser #browser_next, #shelfbrowser #browser_previous {
     background-image: none;
     background-repeat: no-repeat;
     width: 16px;
-}
+}*/
 
 /*add custom images */
 
-#browser_next::before {
+/*#browser_next::before {
     content: "\f0a9";
     font-family: FontAwesome;
     font-size: 40px;
-}
+}*/
 
-#browser_previous:before {
+/*#browser_previous:before {
   content: "\f0a8";
     font-family: FontAwesome;
     font-size: 40px;
 
-}
+}*/
 
 /*lists */
 
