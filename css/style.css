@@ -1,5 +1,9 @@
 /*CSS*/
 
+#subtype_audience {
+    width: 100% !important;
+}
+
 #daily-quote {
     text-align: center !important;
 }
