@@ -256,6 +256,18 @@ margin-bottom:10px;
 
 }
 
+#shelfbrowser #browser_next, #shelfbrowser #browser_previous {
+    background-image: url(http://media.bywatersolutions.com/newopac/arrowright.png);
+    background-repeat: no-repeat;
+    width: 16px;
+}
+
+#shelfbrowser #browser_next, #shelfbrowser #browser_previous {
+    background-image: url(http://media.bywatersolutions.com/newopac/arrowright.png);
+    background-repeat: no-repeat;
+    width: 16px;
+}
+
 /*hold button*/
 
 .btn.btn-link.js-show {
