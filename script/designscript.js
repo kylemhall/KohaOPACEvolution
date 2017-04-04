@@ -2,7 +2,15 @@
 
 $(document).ready( function() {
  
+if (window.location.href.indexOf("http://aarome-test.bywatersolutions.com") > -1) {
+ 
  $("#facet-itemtypes").text("Format");
+ 
+ $("#facet-topics").text("Subjects");
+  
+ 
+}
+ 
 
 /*part expanded*/
 
