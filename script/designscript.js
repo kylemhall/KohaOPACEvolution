@@ -1,6 +1,8 @@
 /*more link for titles*/
 
 $(document).ready( function() {
+ 
+ $("#facet-itemtypes").text("Format");
 
 /*part expanded*/
 
