@@ -71,6 +71,15 @@ $("#itype_id ul").addClass("expandmore__to_expand");
 
 $('#itype_id ul').attr('data-hidden', 'true');
 
+ /*titles */
+ 
+ $("#results #su-ut_id h5").addClass("js-expandmore");
+
+
+$('#results #su-ut_id h5').attr('data-controls', 'expand_1');
+
+$('#results #su-ut_id h5').attr('aria-expanded', 'false');
+ 
 
 /*Locations*/
 
