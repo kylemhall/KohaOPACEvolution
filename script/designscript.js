@@ -79,7 +79,13 @@ $('#itype_id ul').attr('data-hidden', 'true');
 $('#results #su-ut_id h5').attr('data-controls', 'expand_1');
 
 $('#results #su-ut_id h5').attr('aria-expanded', 'false');
- 
+
+ $("#su-ut_id ul").addClass("js-to_expand");
+
+$("#su-ut_id ul").addClass("expandmore__to_expand");
+
+$('#su-ut_id ul').attr('data-hidden', 'true');
+
 
 /*Locations*/
 
