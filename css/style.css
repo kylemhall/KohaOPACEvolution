@@ -41,7 +41,7 @@
     padding-top: 0px;
     position: relative;
     bottom: 55px;
-    display: flex;
+    display: none;
     flex-direction:column;
    justify-content:flex-start;
 }
