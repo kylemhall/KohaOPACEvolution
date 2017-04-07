@@ -36,6 +36,16 @@
 
 }
 
+.searchresults #selections-toolbar {
+    margin-top: 0px;
+    padding-top: 0px;
+    position: relative;
+    bottom: 55px;
+    display: flex;
+    flex-direction:column;
+   justify-content:flex-start;
+}
+
 #shelfbrowser img {
     width: 100% !important;
 }
@@ -1243,8 +1253,8 @@ z-index: 9999;
 #CheckAll, #CheckNone, .CheckAll, .CheckNone, .toolbar .hold {
     background-position: -5px -572px;
     text-align:center;
-    margin:0px !important;
-    padding:0px !important;
+    margin:0px 
+    padding:0px 
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: #254A71;
@@ -2038,7 +2048,7 @@ font-weight:300;
 
 input.btn.btn-small[type="submit"] {
     padding: 9px;
-    width: 100% !important;
+    width: 100%;
 }
 
 .btn-small, #placehold {
