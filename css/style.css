@@ -1,5 +1,10 @@
 /*CSS*/
 
+#selections-toolbar input.hold.disabled {
+ color:#ffffff;	
+	
+}
+
 #subtype_audience {
     width: 100% !important;
 }
