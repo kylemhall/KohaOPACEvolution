@@ -1548,6 +1548,10 @@ font-size: 18px;
 
 }
 
+#placehold .hold {
+ background-image:none;	
+ color:#ffffff;	
+}
 
 .actions a.addtocart, #CheckAll, #CheckNone, .CheckAll, .CheckNone, .toolbar .hold {
     background-position: -5px -572px;
