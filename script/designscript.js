@@ -2,6 +2,9 @@
 
 $(document).ready( function() {
  
+ 
+ $("#selections-toolbar .checkall").before('<h4><a href="#" class="menu-collapse-toggle">Refine your search</a></h4>');
+ 
 if (window.location.href.indexOf("http://aarome-test.bywatersolutions.com") > -1) {
  
  $("#facet-itemtypes").text("Format");
