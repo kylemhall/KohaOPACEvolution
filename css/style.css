@@ -1,5 +1,9 @@
 /*CSS*/
 
+#items th {
+   color: #069 !important;
+}
+
 #selections-toolbar input.hold.disabled {
  color:#ffffff;	
 	
