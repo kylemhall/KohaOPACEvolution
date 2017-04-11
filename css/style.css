@@ -1770,7 +1770,6 @@ text-transform:uppercase;
     -o-transition: border linear .2s, box-shadow linear .2s;
     transition: border linear .2s, box-shadow linear .2s;
     border-radius: 0 !important;
-    height: 22px;
     padding: 10px;
     margin: 0px;
     width: 40% !important;
