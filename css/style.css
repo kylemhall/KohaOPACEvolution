@@ -54,8 +54,9 @@
     width: 155px;
     display: flex;
     flex-direction: column;
-    margin-top: 114px;
+    margin-top: 21%;
 }
+
 #shelfbrowser img {
     width: 100% !important;
 }
