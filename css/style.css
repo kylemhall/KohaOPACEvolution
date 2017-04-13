@@ -1,5 +1,62 @@
 /*CSS*/
 
+
+#opac-userlists .required {
+    text-align: left;
+}
+
+
+
+#usershelves .pull-right {
+    float: right !important;
+    padding: 20px;
+}
+
+#opac-userlists #placehold, #opac-lists .checkall #placehold {
+    padding: 12px 15px;
+}
+
+#opac-userlists h4 {
+    display: none;
+}
+
+#opac-userlists .checkall {
+    margin-bottom: 10px;
+    margin-right: 0px;
+
+}
+
+#opac-userlists .links {
+    float: right;
+}
+
+#opac-userlists #selections-toolbar {
+    background: transparent;
+   padding:20px;
+}
+
+#opac-userlists .toolbar {
+ border:none;
+
+}
+
+
+#opac-userlists #CheckAll, #opac-userlists #CheckNone {
+    background-position: -5px -572px;
+    margin-right: 1em;
+    padding-left: 0px !important;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #254A71;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#opac-userlists .toolbar {
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+}
 #items th {
    color: #069 !important;
 }
