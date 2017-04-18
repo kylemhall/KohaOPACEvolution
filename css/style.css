@@ -2210,22 +2210,6 @@ input.hold {
     margin: 0 auto;
     margin-bottom: 20px;
 }
-#opaccredits {
-    display: flex;
-    justify-content: space-between;
-}
-
-#opaccredits ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-#opaccredits ul li {
-
-list-style:none;
-margin-left:10px;
-
-}
 
 
 
