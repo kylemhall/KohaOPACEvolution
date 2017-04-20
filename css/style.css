@@ -3164,7 +3164,13 @@ width: 90%
   and (min-width: 768px) 
   and (max-width: 1024px) 
    {
+	   
+#userresults .table.table-striped {
+position: relative;
+bottom: 0px;
 
+}
+	   
 	#toolbar select, #opac-main-search select, .toolbar select, select {
     font-family: 'Roboto', sans-serif;
     text-indent: 0.01px;
