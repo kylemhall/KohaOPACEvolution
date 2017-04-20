@@ -3118,6 +3118,21 @@ box-sizing: border-box;
     left: 0px;
 }
 
+.searchresults #selections-toolbar {	  
+margin-top: 0px;
+padding-top: 0px;
+position: relative;
+flex-direction: column;
+justify-content: flex-start;
+width: 89%;
+float: right;
+left: 0px; 
+display: flex;
+flex-direction: column;
+margin-top: 0px; 	  
+	 }
+	
+	
 }
 
 
