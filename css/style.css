@@ -3125,13 +3125,36 @@ position: relative;
 flex-direction: column;
 justify-content: flex-start;
 width: 89%;
-float: right;
+float: left;
 left: 0px; 
 display: flex;
 flex-direction: column;
 margin-top: 0px; 	  
 	 }
-	
+.toolbar.clearfix {
+width: 304px;
+float: left;
+position: relative;
+bottom: 10px;
+
+}
+
+#numresults {
+display: flex;
+flex-direction: column;
+width: 90%;
+
+}
+
+#search-facets {
+border: 1px solid #D2D2CF;
+-webkit-border-radius: 7px;
+-moz-border-radius: 7px;
+border-radius: 7px;
+background-color: #ffffff;
+width: 90%
+
+}	
 	
 }
 
