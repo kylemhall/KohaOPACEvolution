@@ -3226,7 +3226,7 @@ box-sizing: border-box;
 
 .input-append {
     display: flex !important;
-    flex-direction: column !important;
+    flex-direction: column;
 }
 
 .main {
