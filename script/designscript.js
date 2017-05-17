@@ -1,7 +1,15 @@
 /*more link for titles*/
 
+ $(document).ready(function() {
+
+
+$("#selections-toolbar").appendTo('#facetcontainer');
+
+});
+
 $(document).ready( function() {
  
+
  
  $("#selections-toolbar .checkall").before('<h4><a href="#" class="menu-collapse-toggle">Save Items</a></h4>');
  
