@@ -183,11 +183,7 @@ select {
     text-overflow: '';
 }
 
-/*accessibility focus*/
 
-a:active, a:focus {
-   border: 2px solid #305972 !important;
-}
 
 #search-facets button:focus, author_statement:focus {
 
