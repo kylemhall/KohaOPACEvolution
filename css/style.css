@@ -185,22 +185,6 @@ select {
 
 
 
-#search-facets button:focus, author_statement:focus {
-
-  border: 1px solid #305972 !important;
-
-}
-
-#moresearches a:active, #moresearches a:focus {
-border: 1px solid #305972;
-
-}
-
-select:focus {
-border: 1px solid #305972 !important;
-
-}
-
 /*search facets accessibility labels*/
 
 .js-to_expand[aria-hidden=true],
