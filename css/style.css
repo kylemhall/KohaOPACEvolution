@@ -2,6 +2,14 @@
 
 /*New CSS*/
 
+#opac-main-search {
+    -webkit-transition: all 10s;
+    -moz-transition: all 10s;
+    transition: all 10s;
+    z-index: 1 !important;
+}
+
+
 #subscriptions .table-bordered tbody:first-child tr:first-child th {
  color:#000000 !important;
 
