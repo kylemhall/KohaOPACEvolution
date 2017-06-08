@@ -53,7 +53,7 @@ width: 92% !important;
 
 
 #usershelves .pull-right {
-    float: right !important;
+    float: right;
     padding: 20px;
 }
 
