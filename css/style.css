@@ -2054,7 +2054,7 @@ min-height: 152px;
 
 
 
-span.no-image {border: 0px solid lightgrey;
+/*span.no-image {border: 0px solid lightgrey;
 width: 123px;
 height: 125px;
 margin-left: 25px;
@@ -2063,7 +2063,7 @@ background: url(http://media.bywatersolutions.com/newtemplate/defaultcover.png) 
 min-height: 152px;
 box-shadow: 0px 4px 5px #888888;
 display:none;
-}
+}*/
 
 
 /*table.table.table-striped > tbody > tr > td:nth-child(2) {
@@ -2076,11 +2076,11 @@ background
 .expList p {    margin:0;    display:block;}
 .expList p:hover {    background-color:#121212;}.expList li {    line-height:140%;    text-indent:0px;    background-position: 1px 5px;    padding-left: 20px;    background-repeat: no-repeat;} /* Collapsed state for list element */
 .expList  .collapsed {
- background-image: url(http://huntsvillelibrary.net/custom/opac/shows2.png);
+ background-image: url(https://model.bywatersolutions.com/images/0142dfef9cee0508f9779c53a95cadd9_shows2.png);
 background-position: -3px -4px;
 }
 /* Expanded state for list element/* NOTE: This class must be located UNDER the collapsed one */
-.expList  .expanded {    background-image: url(http://huntsvillelibrary.net/custom/opac/hides2.png);
+.expList  .expanded {    background-image: url(https://model.bywatersolutions.com/images/7feca34fc1e8c64d172ff659dd62013f_hides2.png);
 background-position: -3px -4px;}
 
 a.title {
@@ -2272,7 +2272,7 @@ box-sizing: border-box;
     text-indent: .01px;
     text-overflow: '';
     margin-bottom: 0;
-    background:url("http://media.bywatersolutions.com/newopac/arrow.png") no-repeat 90% 50%;
+    background:url("https://model.bywatersolutions.com/images/bc212cb8b3f772efee1a7e1265ea4611_arrow.png") no-repeat 90% 50%;
 width:100% !important;
 margin-bottom:20px;
 
@@ -2453,7 +2453,7 @@ box-sizing: border-box;
     text-indent: .01px;
     text-overflow: '';
     margin-bottom: 0;
-    background:url("http://media.bywatersolutions.com/newopac/arrow.png") no-repeat 90% 50%;
+    background:url("https://model.bywatersolutions.com/images/bc212cb8b3f772efee1a7e1265ea4611_arrow.png") no-repeat 90% 50%;
 
 }
 
@@ -2709,7 +2709,7 @@ box-sizing: border-box;
     text-indent: .01px;
     text-overflow: '';
     margin-bottom: 0;
-    background:url("http://media.bywatersolutions.com/newopac/arrow.png") no-repeat 90% 50%;
+    background:url("https://model.bywatersolutions.com/images/bc212cb8b3f772efee1a7e1265ea4611_arrow.png") no-repeat 90% 50%;
 
 }
 
@@ -2964,7 +2964,7 @@ box-sizing: border-box;
     text-indent: .01px;
     text-overflow: '';
     margin-bottom: 0;
-    background:url("http://media.bywatersolutions.com/newopac/arrow.png") no-repeat 90% 50%;
+    background:url("https://model.bywatersolutions.com/images/bc212cb8b3f772efee1a7e1265ea4611_arrow.png") no-repeat 90% 50%;
 
 }
 
@@ -3002,7 +3002,7 @@ box-sizing: border-box;
     text-indent: .01px;
     text-overflow: '';
     margin-bottom: 0;
-    background:url("http://media.bywatersolutions.com/newopac/arrow.png") no-repeat 90% 50%;
+    background:url("https://model.bywatersolutions.com/images/bc212cb8b3f772efee1a7e1265ea4611_arrow.png") no-repeat 90% 50%;
 
 }  
 	  
@@ -3219,7 +3219,7 @@ box-sizing: border-box;
     text-indent: .01px;
     text-overflow: '';
     margin-bottom: 0;
-    background:url("http://media.bywatersolutions.com/newopac/arrow.png") no-repeat 90% 50%;
+    background:url("https://model.bywatersolutions.com/images/bc212cb8b3f772efee1a7e1265ea4611_arrow.png") no-repeat 90% 50%;
 
 }  
 	  
