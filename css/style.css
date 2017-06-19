@@ -1521,11 +1521,8 @@ border-bottom: 1px solid #D2D2CF;
    
 }
 
-/*hide publisher info on search results */
 
-.results_summary.publisher {
-    display: none;
-}
+
 
 
 
