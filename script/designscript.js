@@ -1,3 +1,17 @@
+//images for EDS float left
+//#40808: New OPAC Theme, BWS Michael Cabus
+$(window).load(function() {
+
+$(".eds #userresults .table.table-striped tr").each(function () { 
+   var image = $(this).find("img").parent(); container = $(image).parent(); $(container).attr("style", "float:left !important; margin-right:20px;");
+});
+
+
+
+
+});
+
+
 /*more link for titles*/
 
  $(document).ready(function() {
