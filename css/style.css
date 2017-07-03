@@ -2561,6 +2561,11 @@ width: 100%;
      #advsearch .btn {
          margin-bottom: 10px;
      }
+     #opac-main-search select {
+
+     width: 95% !important;
+
+ }
 
 
 /*buttons*/
