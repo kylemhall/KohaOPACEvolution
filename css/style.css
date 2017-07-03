@@ -104,8 +104,8 @@ width: 92% !important;
 }
 
 #selections-toolbar input.hold.disabled {
- color:#ffffff;	
-	
+ color:#ffffff;
+
 }
 
 #subtype_audience {
@@ -139,7 +139,7 @@ width: 92% !important;
 /*accessible additions*/
 
 #toolbar select, #opac-main-search select, .toolbar select, select {
-   
+
     background:url("https://model.bywatersolutions.com/images/bc212cb8b3f772efee1a7e1265ea4611_arrow.png") no-repeat 90% 50% !important;
 
 }
@@ -648,7 +648,7 @@ body {
 }
 
 #login {
-   
+
     margin-bottom: 20px;
 }
 
@@ -942,7 +942,7 @@ margin-bottom: .5em
 
 
 #opacnavbottom {
-    
+
     width: 195px;
 }
 
@@ -1265,7 +1265,7 @@ h1 {
     -moz-transition: all 3s;
     transition: all 3s;
    opacity:.95;
-   
+
 
   }
 
@@ -1346,8 +1346,8 @@ z-index: 9999;
 #CheckAll, #CheckNone, .CheckAll, .CheckNone, .toolbar .hold {
     background-position: -5px -572px;
     text-align:center;
-    margin:0px 
-    padding:0px 
+    margin:0px
+    padding:0px
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: #254A71;
@@ -1518,7 +1518,7 @@ border-bottom: 1px solid #D2D2CF;
 
 #didyoumean {
     text-align: left;
-   
+
 }
 
 
@@ -1629,8 +1629,8 @@ font-size: 18px;
 }
 
 #placehold .hold {
- background-image:none;	
- color:#ffffff;	
+ background-image:none;
+ color:#ffffff;
 }
 
 .actions a.addtocart, #CheckAll, #CheckNone, .CheckAll, .CheckNone, .toolbar .hold {
@@ -2542,6 +2542,46 @@ width: 100%;
   and (min-width: 320px)
   and (max-width: 480px)
    {
+     #advsearch select {
+         font-family: 'Roboto', sans-serif;
+         text-indent: 0.01px;
+         width: 25%;
+         padding: 8px 18px;
+         font-size: 14px;
+         margin-bottom: 0px;
+         background: #FFF;
+         border: 1px solid #E5E5E4;
+         border-radius: 0;
+         outline: 0;
+         color: #333333;
+         height: 44px;
+         appearance: none;
+         background-color: rgb(255, 255, 255) !important;
+         border: 1px solid rgb(229, 229, 228);
+         outline: none;
+         color: rgb(0, 0, 0);
+         -webkit-appearance: none;
+         box-sizing: border-box;
+         text-indent: .01px;
+         text-overflow: '';
+         margin-bottom: 0;
+         width: 100%;
+         margin-bottom: 14px;
+     }
+
+     #advsearches .ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all {
+         display: flex;
+         flex-direction: column;
+     }
+
+     #advsearches li {
+         padding: 10px;
+     }
+
+
+     #advsearch .btn {
+         margin-bottom: 10px;
+     }
 
 
 /*buttons*/
@@ -2832,13 +2872,13 @@ font-size: 18px;
 
 
 /* Landscape iPad */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 1) {
 
-	 
+
 	  #daily-quote {
     width: 70%;
     margin: 0 auto;
@@ -2853,12 +2893,12 @@ font-size: 18px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
-	  
+
 	  #searchform {
     display: flex;
     flex-direction: column;
 }
-	  
+
 #masthead_search {
     margin-bottom: 20px !important;
 }
@@ -2871,7 +2911,7 @@ font-size: 18px;
 .main {
     display: flex;
     flex-direction: column;
-}	  
+}
 
 .mastheadsearch label {
     color: #366CA4;
@@ -2902,8 +2942,8 @@ font-size: 18px;
 }
 
 
-	  
-	  
+
+
 #moresearches li a {
     font-family: 'Roboto', sans-serif;
     color: #305972;
@@ -2970,9 +3010,9 @@ box-sizing: border-box;
 }
 
 /* Portrait, iPad */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   {
 
 	#toolbar select, #opac-main-search select, .toolbar select, select, #addto {
@@ -3001,9 +3041,9 @@ box-sizing: border-box;
     margin-bottom: 0;
     background:url("https://model.bywatersolutions.com/images/bc212cb8b3f772efee1a7e1265ea4611_arrow.png") no-repeat 90% 50%;
 
-}  
-	  
-	  
+}
+
+
   #daily-quote {
     width: 70% !important;
     margin: 0 auto;
@@ -3018,12 +3058,12 @@ box-sizing: border-box;
     margin: 0 auto;
     margin-bottom: 20px;
 }
-	  
+
 	  #searchform {
     display: flex;
     flex-direction: column;
 }
-	  
+
 #masthead_search {
     margin-bottom: 20px !important;
 }
@@ -3036,7 +3076,7 @@ box-sizing: border-box;
 .main {
     display: flex;
     flex-direction: column;
-}	  
+}
 
 .mastheadsearch label {
     color: #366CA4;
@@ -3065,13 +3105,13 @@ box-sizing: border-box;
 #searchsubmit {
     margin-top: 20px;
 }
-	  
+
 .main .span2 {
     float: none;
     display: flex;
     width:100%;
 }
-	  
+
 
 #moresearches ul {
     margin: 0;
@@ -3083,8 +3123,8 @@ box-sizing: border-box;
 #navigation, #opacnavbottom {
     width: 100%;
 }
-	  
-	  
+
+
     #moresearches ul li {
         border-bottom: 1px solid #e1e8ed;
         border-right:none;
@@ -3093,7 +3133,7 @@ box-sizing: border-box;
     }
 
 
-  
+
         .main .row-fluid [class*="span"] {
             display: block;
             width: 100% !important;
@@ -3113,7 +3153,7 @@ box-sizing: border-box;
           margin: 0 auto;
       }
 
-	  
+
 #numresults {
     margin-top: 10px;
 }
@@ -3139,7 +3179,7 @@ box-sizing: border-box;
     left: 0px;
 }
 
-.searchresults #selections-toolbar {	  
+.searchresults #selections-toolbar {
 margin-top: 0px;
 padding-top: 0px;
 position: relative;
@@ -3147,10 +3187,10 @@ flex-direction: column;
 justify-content: flex-start;
 width: 89%;
 float: left;
-left: 0px; 
+left: 0px;
 display: flex;
 flex-direction: column;
-margin-top: 0px; 	  
+margin-top: 0px;
 	 }
 .toolbar.clearfix {
 width: 304px;
@@ -3175,23 +3215,23 @@ border-radius: 7px;
 background-color: #ffffff;
 width: 90%
 
-}	
-	
+}
+
 }
 
 
 /* Portrait, iPad */
-@media only screen 
-  and (min-width: 768px) 
-  and (max-width: 1024px) 
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1024px)
    {
-	   
+
 #userresults .table.table-striped {
 position: relative;
 bottom: 0px;
 
 }
-	   
+
 	#toolbar select, #opac-main-search select, .toolbar select, select {
     font-family: 'Roboto', sans-serif;
     text-indent: 0.01px;
@@ -3218,9 +3258,9 @@ box-sizing: border-box;
     margin-bottom: 0;
     background:url("https://model.bywatersolutions.com/images/bc212cb8b3f772efee1a7e1265ea4611_arrow.png") no-repeat 90% 50%;
 
-}  
-	  
-	  
+}
+
+
   #daily-quote {
     width: 70% !important;
     margin: 0 auto;
@@ -3235,12 +3275,12 @@ box-sizing: border-box;
     margin: 0 auto;
     margin-bottom: 20px;
 }
-	  
+
 	  #searchform {
     display: flex;
     flex-direction: column;
 }
-	  
+
 #masthead_search {
     margin-bottom: 20px !important;
 }
@@ -3253,7 +3293,7 @@ box-sizing: border-box;
 .main {
     display: flex;
     flex-direction: column;
-}	  
+}
 
 .mastheadsearch label {
     color: #366CA4;
@@ -3282,13 +3322,13 @@ box-sizing: border-box;
 #searchsubmit {
     margin-top: 20px;
 }
-	  
+
 .main .span2 {
     float: none;
     display: flex;
     width:100%;
 }
-	  
+
 
 #moresearches ul {
     margin: 0;
@@ -3300,8 +3340,8 @@ box-sizing: border-box;
 #navigation, #opacnavbottom {
     width: 100%;
 }
-	  
-	  
+
+
     #moresearches ul li {
         border-bottom: 1px solid #e1e8ed;
         border-right:none;
@@ -3310,7 +3350,7 @@ box-sizing: border-box;
     }
 
 
-  
+
         .main .row-fluid [class*="span"] {
             display: block;
             width: 100% !important;
@@ -3324,21 +3364,21 @@ box-sizing: border-box;
 
 
 	   #login {
-		   
-	 margin-bottom:20px !important;	   
+
+	 margin-bottom:20px !important;
 	   }
 
            #login form, #login {
           margin: 0 0 20px;
           width: 100%;
           margin: 0 auto;
-		   
-     		    
+
+
       }
 
 
 
-      
+
 #numresults {
     margin-top: 10px;
 }
@@ -3363,7 +3403,7 @@ box-sizing: border-box;
     top: 0px;
     left: 0px;
 }
-	  
+
 
 
 }
