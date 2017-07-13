@@ -2,6 +2,11 @@
 
 /*New CSS*/
 
+#marc tr th {
+    color: #000000 !important;
+}
+
+
 #opac-main-search {
     -webkit-transition: all 10s;
     -moz-transition: all 10s;
