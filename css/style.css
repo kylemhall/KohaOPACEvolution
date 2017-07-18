@@ -2095,10 +2095,6 @@ color:#2F3C4A;
 
 }
 
-/* Hides the # column on the results page */
-.select.selectcol:nth-child(2) {
-    display: none;
-}
 
 /*Course Reserves*/
 
