@@ -27,7 +27,7 @@ $(document).ready( function() {
  
  $("#selections-toolbar .checkall").before('<h4><a href="#" class="menu-collapse-toggle">Save Items</a></h4>');
  
-if (window.location.href.indexOf("http://aarome.bywatersolutions.com") > -1) {
+if (window.location.href.indexOf("https://library.aarome.org") > -1) {
  
  $("#facet-itemtypes").text("Format");
  
