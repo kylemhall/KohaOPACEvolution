@@ -2193,7 +2193,7 @@ color: #FD813B;
 input.btn.btn-small[type="submit"] {
     *padding-top: 20px;
     *padding-bottom: 3px;
-    width: 100% !important;
+    width: 100%;
     margin-top: 0px;
 }
 
