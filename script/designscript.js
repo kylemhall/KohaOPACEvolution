@@ -291,7 +291,7 @@ $(window).scroll(function(){
       scroll = $(window).scrollTop();
 
   /*scroll position for search bar*/
-  if (scroll >= 80) sticky.addClass('fixed');
+  if (scroll >= 120) sticky.addClass('fixed');
   else sticky.removeClass('fixed');
 
   /*grab .navbar-inverse class in variable*/
