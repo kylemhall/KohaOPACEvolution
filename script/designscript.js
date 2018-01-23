@@ -1,4 +1,178 @@
+$(document).ready(function(){
 
+$("#opac-suggestions .breadcrumb li:eq(1) a").remove();
+
+$("#usertags form label").attr("for", "limit_tags");
+
+$("#usertags form input[name='limit']").attr("id", "limit_tags");
+
+$("#selections").hide();
+
+$( "#addto" ).each(function(i) { 
+  $(this).before("<label for='addto'>Select titles to:</label>");
+});
+
+$( ".selectcol label" ).each(function(i) { 
+  $(this).text(++i);
+});
+
+$( "#sort_by" ).each(function(i) { 
+ $(this).before("<label for='sort_by'>Sort results</label>")
+});
+
+
+
+$( ".results_summary.ratings input" ).each(function(i) { 
+ id_value = $(this).attr("value"); console.log(id_value); $(this).attr("id", "rating of" + " " + id_value);
+});
+
+$( ".results_summary.ratings input" ).each(function(i) { 
+  label_value = $(this).attr('id'); console.log(label_value); $(this).before('<label for="' + label_value + '" class="hidden" >Rating value</label>')
+});
+
+/*$( ".selectcol label" ).each(function(i) { 
+  $(this).text(++i);
+});*/
+
+//adding accessibility labels for advanced search
+//BWS #41682: Web accessibility and Koha OPAC
+
+$("#login input[type='hidden']").appendTo("#auth .brief")
+
+$("#rssnews-container img").attr("alt", "rss feed");
+
+$("#translControl1").attr("aria-labelledby", "masthead_search");
+
+$("#auth .btn").each(function() {
+  
+  $(this).appendTo(".brief");
+});
+
+$(".action").remove();
+
+$('.menu-inactive').each(function () { 
+
+$(this).attr("aria-hidden", "true");
+
+
+});
+
+$('.menu-inactive').each(function () { 
+
+
+$(this).attr("role", "presentation");
+
+});
+
+$(".dropdown-menu a").attr("aria-hidden", "true");
+
+$("#booleansearch input:eq(0)").attr("id", "search_term_one");
+
+
+$("#booleansearch input:eq(0)").before("<label for='search_term_one'>Enter Search Term</label>");
+
+$("#booleansearch input:eq(1)").attr("id", "search_term_two");
+
+$("#booleansearch input:eq(1)").before("<label for='search_term_two'>Enter Search Term</label>");
+
+$("#booleansearch input:eq(2)").attr("id", "search_term_three");
+
+$("#booleansearch input:eq(2)").before("<label for='search_term_three'>Enter Search Term</label>");
+
+$("#listsmenu").removeAttr("href");
+
+$("#user-menu-trigger").removeAttr("href");
+
+$("#subtypes fieldset legend:eq(0)").attr("for", "audience_limit");
+
+
+
+//audience limit
+$('#subtype_audience').each(function () { 
+
+$(this).attr("aria-labelledby", "subtype_audience");
+
+$(this).before('<label for="subtype_audience">Limit By Audience Level</label>');
+
+});
+
+//content
+$('#subtype_content').each(function () { 
+
+$(this).attr("aria-labelledby", "subtype_content");
+
+$(this).before('<label for="subtype_content">Limit By Content Type</label>');
+
+});
+
+//format
+$('#subtype_format').each(function () { 
+
+$(this).attr("aria-labelledby", "subtype_format");
+
+$(this).before('<label for="subtype_format">Limit By Format</label>');
+
+});
+
+//additional format
+$('#subtype_additional').each(function () { 
+
+$(this).attr("aria-labelledby", "subtype_additional");
+
+$(this).before('<label for="subtype_additional">Limit By Additional Content Types</label>');
+
+});
+
+$(".ButtonPlus").each(function (index, value) { 
+
+$(this).attr("type", "button");
+
+
+$(this).removeAttr("title");
+
+
+});
+
+
+
+$(".ButtonLess").each(function (index, value) { 
+
+$(this).attr("type", "button");
+
+$(this).removeAttr("title");
+
+});
+
+
+$("#booleansearch fieldset legend").attr("for", "advanced_search_queries");
+
+$('#booleansearch select').each(function (index, value) { 
+
+$(this).attr("id", "advanced_search_queries");
+
+$(this).attr("aria-labelledby", "advanced_search_queries");
+
+//$(this).attr("title", "Limit your search by");
+
+
+
+});
+
+
+/*$(".ButtonPlus").each(function (index, value) {
+
+$(this).before('<label for="advanced_search_queries">Add More Limits</label>');
+
+});*/
+
+$('#booleansearch select:eq(0)').each(function (index, value) { 
+
+$(this).before('<label for="advanced_search_queries">Limit Your Search</label>');
+
+
+});
+
+});
 
 
 //images for EDS float left
