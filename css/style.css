@@ -2,6 +2,11 @@
 
 /*New CSS*/
 
+/*hide accessibility label */
+.selectcol label {
+    visibility: hidden;
+}
+
 #marc tr th {
     color: #000000 !important;
 }
