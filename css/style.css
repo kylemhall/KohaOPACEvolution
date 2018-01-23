@@ -3,9 +3,20 @@
 /*New CSS*/
 
 /*hide accessibility label */
+
+#booleansearch label {
+    display: block;
+}
+
+
+#audience_limit, #content_type_limit, #format_limit, #subtype_format {
+    width: 100% !important;
+}
+
 .selectcol label {
     visibility: hidden;
-}
+} 
+
 
 #marc tr th {
     color: #000000 !important;
