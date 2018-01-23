@@ -3,28 +3,6 @@
 //adding accessibility labels for advanced search
 //BWS #41682: Web accessibility and Koha OPAC
 
-$(document).ready(function(){
-
-$("#opac-suggestions .breadcrumb li:eq(1) a").remove();
-
-$("#usertags form label").attr("for", "limit_tags");
-
-$("#usertags form input[name='limit']").attr("id", "limit_tags");
-
-$("#selections").hide();
-
-$( "#addto" ).each(function(i) { 
-  $(this).before("<label for='addto'>Select titles to:</label>");
-});
-
-$( ".selectcol label" ).each(function(i) { 
-  $(this).text(++i);
-});
-
-$( "#sort_by" ).each(function(i) { 
- $(this).before("<label for='sort_by'>Sort results</label>")
-});
-
 
 
 $( ".results_summary.ratings input" ).each(function(i) { 
